@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17E4363C2E53D494001E61AD /* testApplictionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4363B2E53D494001E61AD /* testApplictionApp.swift */; };
-		17E4363E2E53D494001E61AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4363D2E53D494001E61AD /* ContentView.swift */; };
+		17E4363C2E53D494001E61AD /* TripPassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4363B2E53D494001E61AD /* TripPassApp.swift */; };
+		17E4363E2E53D494001E61AD /* PassDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4363D2E53D494001E61AD /* PassDetailsView.swift */; };
 		17E436402E53D498001E61AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E4363F2E53D498001E61AD /* Assets.xcassets */; };
 		17E436432E53D498001E61AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E436422E53D498001E61AD /* Preview Assets.xcassets */; };
-		17E4364D2E53D498001E61AD /* testApplictionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4364C2E53D498001E61AD /* testApplictionTests.swift */; };
-		17E436572E53D498001E61AD /* testApplictionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E436562E53D498001E61AD /* testApplictionUITests.swift */; };
-		17E436592E53D498001E61AD /* testApplictionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E436582E53D498001E61AD /* testApplictionUITestsLaunchTests.swift */; };
+		17E4364D2E53D498001E61AD /* TripPassAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4364C2E53D498001E61AD /* TripPassAppTests.swift */; };
+		17E436572E53D498001E61AD /* TripPassAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E436562E53D498001E61AD /* TripPassAppUITests.swift */; };
+		17E436592E53D498001E61AD /* TripPassAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E436582E53D498001E61AD /* TripPassAppUITestsLaunchTests.swift */; };
+		17E436692E53DC46001E61AD /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E436652E53D560001E61AD /* TripModel.swift */; };
+		17E4366A2E53DC4B001E61AD /* PassDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E436672E53D7ED001E61AD /* PassDetailsViewModel.swift */; };
+		17E4366C2E53FA95001E61AD /* PassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4366B2E53FA95001E61AD /* PassCard.swift */; };
+		17E4366E2E5409E3001E61AD /* PassSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4366D2E5409E3001E61AD /* PassSearchView.swift */; };
+		17E436702E54A76C001E61AD /* GetFullApplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4366F2E54A76C001E61AD /* GetFullApplicationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +39,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17E436382E53D494001E61AD /* testAppliction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testAppliction.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		17E4363B2E53D494001E61AD /* testApplictionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApplictionApp.swift; sourceTree = "<group>"; };
-		17E4363D2E53D494001E61AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17E436382E53D494001E61AD /* TripPassApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripPassApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E4363B2E53D494001E61AD /* TripPassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPassApp.swift; sourceTree = "<group>"; };
+		17E4363D2E53D494001E61AD /* PassDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassDetailsView.swift; sourceTree = "<group>"; };
 		17E4363F2E53D498001E61AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17E436422E53D498001E61AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		17E436482E53D498001E61AD /* testApplictionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testApplictionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		17E4364C2E53D498001E61AD /* testApplictionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApplictionTests.swift; sourceTree = "<group>"; };
-		17E436522E53D498001E61AD /* testApplictionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testApplictionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		17E436562E53D498001E61AD /* testApplictionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApplictionUITests.swift; sourceTree = "<group>"; };
-		17E436582E53D498001E61AD /* testApplictionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApplictionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17E436482E53D498001E61AD /* TripPassAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripPassAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E4364C2E53D498001E61AD /* TripPassAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPassAppTests.swift; sourceTree = "<group>"; };
+		17E436522E53D498001E61AD /* TripPassAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripPassAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E436562E53D498001E61AD /* TripPassAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPassAppUITests.swift; sourceTree = "<group>"; };
+		17E436582E53D498001E61AD /* TripPassAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPassAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17E436652E53D560001E61AD /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
+		17E436672E53D7ED001E61AD /* PassDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassDetailsViewModel.swift; sourceTree = "<group>"; };
+		17E4366B2E53FA95001E61AD /* PassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassCard.swift; sourceTree = "<group>"; };
+		17E4366D2E5409E3001E61AD /* PassSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassSearchView.swift; sourceTree = "<group>"; };
+		17E4366F2E54A76C001E61AD /* GetFullApplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFullApplicationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +84,9 @@
 		17E4362F2E53D494001E61AD = {
 			isa = PBXGroup;
 			children = (
-				17E4363A2E53D494001E61AD /* testAppliction */,
-				17E4364B2E53D498001E61AD /* testApplictionTests */,
-				17E436552E53D498001E61AD /* testApplictionUITests */,
+				17E4363A2E53D494001E61AD /* TripPassApp */,
+				17E4364B2E53D498001E61AD /* TripPassAppTests */,
+				17E436552E53D498001E61AD /* TripPassAppUITests */,
 				17E436392E53D494001E61AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +94,27 @@
 		17E436392E53D494001E61AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17E436382E53D494001E61AD /* testAppliction.app */,
-				17E436482E53D498001E61AD /* testApplictionTests.xctest */,
-				17E436522E53D498001E61AD /* testApplictionUITests.xctest */,
+				17E436382E53D494001E61AD /* TripPassApp.app */,
+				17E436482E53D498001E61AD /* TripPassAppTests.xctest */,
+				17E436522E53D498001E61AD /* TripPassAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		17E4363A2E53D494001E61AD /* testAppliction */ = {
+		17E4363A2E53D494001E61AD /* TripPassApp */ = {
 			isa = PBXGroup;
 			children = (
-				17E4363B2E53D494001E61AD /* testApplictionApp.swift */,
-				17E4363D2E53D494001E61AD /* ContentView.swift */,
+				17E4363B2E53D494001E61AD /* TripPassApp.swift */,
+				17E4366D2E5409E3001E61AD /* PassSearchView.swift */,
+				17E436652E53D560001E61AD /* TripModel.swift */,
+				17E4363D2E53D494001E61AD /* PassDetailsView.swift */,
+				17E4366B2E53FA95001E61AD /* PassCard.swift */,
+				17E436672E53D7ED001E61AD /* PassDetailsViewModel.swift */,
+				17E4366F2E54A76C001E61AD /* GetFullApplicationView.swift */,
 				17E4363F2E53D498001E61AD /* Assets.xcassets */,
 				17E436412E53D498001E61AD /* Preview Content */,
 			);
-			path = testAppliction;
+			path = TripPassApp;
 			sourceTree = "<group>";
 		};
 		17E436412E53D498001E61AD /* Preview Content */ = {
@@ -110,29 +125,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		17E4364B2E53D498001E61AD /* testApplictionTests */ = {
+		17E4364B2E53D498001E61AD /* TripPassAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				17E4364C2E53D498001E61AD /* testApplictionTests.swift */,
+				17E4364C2E53D498001E61AD /* TripPassAppTests.swift */,
 			);
-			path = testApplictionTests;
+			path = TripPassAppTests;
 			sourceTree = "<group>";
 		};
-		17E436552E53D498001E61AD /* testApplictionUITests */ = {
+		17E436552E53D498001E61AD /* TripPassAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				17E436562E53D498001E61AD /* testApplictionUITests.swift */,
-				17E436582E53D498001E61AD /* testApplictionUITestsLaunchTests.swift */,
+				17E436562E53D498001E61AD /* TripPassAppUITests.swift */,
+				17E436582E53D498001E61AD /* TripPassAppUITestsLaunchTests.swift */,
 			);
-			path = testApplictionUITests;
+			path = TripPassAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		17E436372E53D494001E61AD /* testAppliction */ = {
+		17E436372E53D494001E61AD /* TripPassApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17E4365C2E53D498001E61AD /* Build configuration list for PBXNativeTarget "testAppliction" */;
+			buildConfigurationList = 17E4365C2E53D498001E61AD /* Build configuration list for PBXNativeTarget "TripPassApp" */;
 			buildPhases = (
 				17E436342E53D494001E61AD /* Sources */,
 				17E436352E53D494001E61AD /* Frameworks */,
@@ -142,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = testAppliction;
+			name = TripPassApp;
 			productName = testAppliction;
-			productReference = 17E436382E53D494001E61AD /* testAppliction.app */;
+			productReference = 17E436382E53D494001E61AD /* TripPassApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		17E436472E53D498001E61AD /* testApplictionTests */ = {
+		17E436472E53D498001E61AD /* TripPassAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17E4365F2E53D498001E61AD /* Build configuration list for PBXNativeTarget "testApplictionTests" */;
+			buildConfigurationList = 17E4365F2E53D498001E61AD /* Build configuration list for PBXNativeTarget "TripPassAppTests" */;
 			buildPhases = (
 				17E436442E53D498001E61AD /* Sources */,
 				17E436452E53D498001E61AD /* Frameworks */,
@@ -160,14 +175,14 @@
 			dependencies = (
 				17E4364A2E53D498001E61AD /* PBXTargetDependency */,
 			);
-			name = testApplictionTests;
+			name = TripPassAppTests;
 			productName = testApplictionTests;
-			productReference = 17E436482E53D498001E61AD /* testApplictionTests.xctest */;
+			productReference = 17E436482E53D498001E61AD /* TripPassAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		17E436512E53D498001E61AD /* testApplictionUITests */ = {
+		17E436512E53D498001E61AD /* TripPassAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17E436622E53D498001E61AD /* Build configuration list for PBXNativeTarget "testApplictionUITests" */;
+			buildConfigurationList = 17E436622E53D498001E61AD /* Build configuration list for PBXNativeTarget "TripPassAppUITests" */;
 			buildPhases = (
 				17E4364E2E53D498001E61AD /* Sources */,
 				17E4364F2E53D498001E61AD /* Frameworks */,
@@ -178,9 +193,9 @@
 			dependencies = (
 				17E436542E53D498001E61AD /* PBXTargetDependency */,
 			);
-			name = testApplictionUITests;
+			name = TripPassAppUITests;
 			productName = testApplictionUITests;
-			productReference = 17E436522E53D498001E61AD /* testApplictionUITests.xctest */;
+			productReference = 17E436522E53D498001E61AD /* TripPassAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 17E436332E53D494001E61AD /* Build configuration list for PBXProject "testAppliction" */;
+			buildConfigurationList = 17E436332E53D494001E61AD /* Build configuration list for PBXProject "TripPassApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +234,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17E436372E53D494001E61AD /* testAppliction */,
-				17E436472E53D498001E61AD /* testApplictionTests */,
-				17E436512E53D498001E61AD /* testApplictionUITests */,
+				17E436372E53D494001E61AD /* TripPassApp */,
+				17E436472E53D498001E61AD /* TripPassAppTests */,
+				17E436512E53D498001E61AD /* TripPassAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17E4363E2E53D494001E61AD /* ContentView.swift in Sources */,
-				17E4363C2E53D494001E61AD /* testApplictionApp.swift in Sources */,
+				17E4363E2E53D494001E61AD /* PassDetailsView.swift in Sources */,
+				17E4366C2E53FA95001E61AD /* PassCard.swift in Sources */,
+				17E436702E54A76C001E61AD /* GetFullApplicationView.swift in Sources */,
+				17E4366E2E5409E3001E61AD /* PassSearchView.swift in Sources */,
+				17E4363C2E53D494001E61AD /* TripPassApp.swift in Sources */,
+				17E4366A2E53DC4B001E61AD /* PassDetailsViewModel.swift in Sources */,
+				17E436692E53DC46001E61AD /* TripModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17E4364D2E53D498001E61AD /* testApplictionTests.swift in Sources */,
+				17E4364D2E53D498001E61AD /* TripPassAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17E436572E53D498001E61AD /* testApplictionUITests.swift in Sources */,
-				17E436592E53D498001E61AD /* testApplictionUITestsLaunchTests.swift in Sources */,
+				17E436572E53D498001E61AD /* TripPassAppUITests.swift in Sources */,
+				17E436592E53D498001E61AD /* TripPassAppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +304,12 @@
 /* Begin PBXTargetDependency section */
 		17E4364A2E53D498001E61AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 17E436372E53D494001E61AD /* testAppliction */;
+			target = 17E436372E53D494001E61AD /* TripPassApp */;
 			targetProxy = 17E436492E53D498001E61AD /* PBXContainerItemProxy */;
 		};
 		17E436542E53D498001E61AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 17E436372E53D494001E61AD /* testAppliction */;
+			target = 17E436372E53D494001E61AD /* TripPassApp */;
 			targetProxy = 17E436532E53D498001E61AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -421,7 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"testAppliction/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TripPassApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -449,7 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"testAppliction/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TripPassApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -485,7 +505,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testAppliction.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testAppliction";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripPassApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TripPassApp";
 			};
 			name = Debug;
 		};
@@ -504,7 +524,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testAppliction.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testAppliction";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripPassApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TripPassApp";
 			};
 			name = Release;
 		};
@@ -545,7 +565,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17E436332E53D494001E61AD /* Build configuration list for PBXProject "testAppliction" */ = {
+		17E436332E53D494001E61AD /* Build configuration list for PBXProject "TripPassApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17E4365A2E53D498001E61AD /* Debug */,
@@ -554,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17E4365C2E53D498001E61AD /* Build configuration list for PBXNativeTarget "testAppliction" */ = {
+		17E4365C2E53D498001E61AD /* Build configuration list for PBXNativeTarget "TripPassApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17E4365D2E53D498001E61AD /* Debug */,
@@ -563,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17E4365F2E53D498001E61AD /* Build configuration list for PBXNativeTarget "testApplictionTests" */ = {
+		17E4365F2E53D498001E61AD /* Build configuration list for PBXNativeTarget "TripPassAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17E436602E53D498001E61AD /* Debug */,
@@ -572,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17E436622E53D498001E61AD /* Build configuration list for PBXNativeTarget "testApplictionUITests" */ = {
+		17E436622E53D498001E61AD /* Build configuration list for PBXNativeTarget "TripPassAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17E436632E53D498001E61AD /* Debug */,

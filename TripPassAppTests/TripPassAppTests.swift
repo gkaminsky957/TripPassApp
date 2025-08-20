@@ -1,14 +1,14 @@
 //
-//  testApplictionTests.swift
+//  TripPassAppTests.swift
 //  testApplictionTests
 //
 //  Created by Gennady Kaminsky on 8/18/25.
 //
 
 import XCTest
-@testable import testAppliction
+@testable import TripPassApp
 
-final class testApplictionTests: XCTestCase {
+final class TripPassAppTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

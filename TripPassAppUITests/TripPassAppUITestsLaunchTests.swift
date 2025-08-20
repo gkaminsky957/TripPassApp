@@ -1,5 +1,5 @@
 //
-//  testApplictionUITestsLaunchTests.swift
+//  TripPassAppUITestsLaunchTests.swift
 //  testApplictionUITests
 //
 //  Created by Gennady Kaminsky on 8/18/25.
@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class testApplictionUITestsLaunchTests: XCTestCase {
+final class TripPassAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

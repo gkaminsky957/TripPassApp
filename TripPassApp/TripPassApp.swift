@@ -1,6 +1,6 @@
 //
-//  testApplictionApp.swift
-//  testAppliction
+//  TripPassApp.swift
+//  TripPassApp
 //
 //  Created by Gennady Kaminsky on 8/18/25.
 //
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct testApplictionApp: App {
+struct TripPassApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PassSearchView()
         }
     }
 }
