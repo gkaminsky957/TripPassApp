@@ -9,6 +9,7 @@ import SwiftUI
 
 struct PassDetailsView: View {
     @StateObject private var viewModel = PassDetailsViewModel()
+    @Environment(\.dismiss) private var dismiss
     
     var body: some View {
         VStack {
@@ -47,6 +48,19 @@ struct PassDetailsView: View {
         .toolbarTitleDisplayMode(.inline)
         .toolbarBackground(.visible, for: .navigationBar)
         .toolbarColorScheme(.dark, for: .navigationBar)
+        .navigationBarBackButtonHidden(true)
+        .toolbar {
+            ToolbarItem(placement: .navigationBarLeading) {
+                Button(action: {
+                    dismiss()
+                }) {
+                    HStack {
+                        Image(systemName: "chevron.backward")
+                        Text("Back")
+                    }
+                }
+            }
+        }
     }
 }
 

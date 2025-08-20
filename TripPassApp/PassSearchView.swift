@@ -26,7 +26,11 @@ struct PassSearchView: View {
                 Text("Confirmation or ticket number")
                 
                 TextField("Confirmation or ticket number", text: $confirmationNumber)
-                    .textFieldStyle(.roundedBorder)
+                    .padding(5)
+                    .overlay {
+                        RoundedRectangle(cornerRadius: 6)
+                            .stroke(.black, lineWidth: 1)
+                    }
                     .submitLabel(.next)
                     .onSubmit {
                         focusField = .lastNameField
@@ -34,7 +38,11 @@ struct PassSearchView: View {
                     .focused($focusField, equals: .confirmationNumberField)
                 Text("Last Name")
                 TextField("Last Name", text: $lastName)
-                    .textFieldStyle(.roundedBorder)
+                    .padding(5)
+                    .overlay {
+                        RoundedRectangle(cornerRadius: 6)
+                            .stroke(.black, lineWidth: 1)
+                    }
                     .submitLabel(.done)
                     .focused($focusField, equals: .lastNameField)
                 
