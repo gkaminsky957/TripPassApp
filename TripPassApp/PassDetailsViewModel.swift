@@ -12,9 +12,17 @@ class PassDetailsViewModel: ObservableObject {
     @Published var date: String = ""
     @Published var toFrom: String = ""
     @Published var lastName: String = ""
+    @Published var shouldShowProgressView: Bool = true
     
     @MainActor
-    func loadPasses() async {
+    func loadPasses(confirmationNumebr: String,
+                    name: String) async {
+        // in real life we will make a  network request passing to it confirmationNumebr and name
+        // that will return the body beow in response
+        
+        // mimic a network delay here
+        shouldShowProgressView = true
+        try? await Task.sleep(nanoseconds: 2000000000)
         let passesData: Data =
         """
         {
@@ -62,6 +70,7 @@ class PassDetailsViewModel: ObservableObject {
             toFrom =  "\(model.tripDetails.from) to \(model.tripDetails.to)"
             lastName = "\(model.tripDetails.pnr) | \(model.tripDetails.lastName)"
         }
+        shouldShowProgressView = false
     }
     
     func flightCities(pass: TripsModel.TripDetailModel.BoardingPass) -> String {

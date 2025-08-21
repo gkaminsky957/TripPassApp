@@ -66,7 +66,8 @@ struct PassSearchView: View {
             }
             .padding()
             .navigationDestination(isPresented: $shuoldGoToDetailView) {
-                PassDetailsView()
+                PassDetailsView(confirmationNumber: confirmationNumber,
+                                lastName: lastName)
                     .padding()
             }
             .navigationTitle("Terminal Guide")
